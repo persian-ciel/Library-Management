@@ -1,12 +1,77 @@
-# React + Vite
+# Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for managing a library, assigning books to users, and tracking return dates. Built with React, Tailwind CSS, Node.js, and SQLite.
 
-Currently, two official plugins are available:
+## 📋 Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure the following are installed:
 
-## Expanding the ESLint configuration
+- Node.js (v14 or higher)
+- npm (v7 or higher)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Installation
+
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/persian-ciel/Library-Management.git
+   cd Library-Management
+   ```
+   2.Install Dependencies
+   **Backend (Node.js)**
+   Navigate to the backend directory and install the backend dependencies:
+
+```bash
+  cd backend
+  npm install
+```
+
+**Frontend (React)**
+Navigate to the frontend directory and install the frontend dependencies:
+
+```bash
+  cd ..
+  npm install
+```
+
+---
+
+## 🛠 Running the Application
+
+1. **Start the Backend Server**
+
+```bash
+  cd backend
+  node index.js
+```
+
+The backend server will run on http://localhost:4000
+
+2. **Start the Frontend Development Server**
+   in another bash termial
+
+```bash
+  npm run dev
+```
+
+## The backend server will run on http://localhost:4000
+
+## 🧪 Usage
+
+- **Assign Books**: Add books to the library collection.
+- **Assign to Users**: Allocate books to users with specified return dates.
+- **Track Returns**: Monitor and manage the return status of borrowed books.
+
+---
+
+## 🧰 Technologies Used
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: SQLite
+
+---
+
+## Contact / Author
+
+- **Author**: `persian-ciel`
+- **GitHub Profile**: [persian-ciel](https://github.com/persian-ciel)

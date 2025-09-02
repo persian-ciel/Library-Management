@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ریست کامل margin/padding و فونت */
+html, body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#root{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+/* تعریف رنگ‌ها به صورت مستقیم برای اطمینان */
+.bg-gray-100 { background-color: #f3f4f6; }
+.bg-white { background-color: #ffffff; }
+.bg-gray-900 { background-color: #111827; }
+.bg-gray-200 { background-color: #d3d3d3; }
+.bg-blue-600 { background-color: #2563eb; }
+.text-gray-700 { color: #374151; }
+.text-white { color: #ffffff; }
+.text-blue { color: #2563eb; }
+.text-yellow-300 { color: #fcd34d; }
+
+/* padding ها */
+.p-0 { padding: 0; }
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 0.75rem; }
+.p-4 { padding: 1rem; }
+.p-5 { padding: 1.25rem; }
+.p-6 { padding: 1.5rem; }
+
+.top-zero{
+  top: -1px;
+}
+
+/* margin ها */
+.m-0 { margin: 0; }
+.m-1 { margin: 0.25rem; }
+.m-2 { margin: 0.5rem; }
+.m-3 { margin: 0.75rem; }
+.m-4 { margin: 1rem; }
+.m-5 { margin: 1.25rem; }
+.m-6 { margin: 1.5rem; }
+
+/* margin-bottom */
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 0.75rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-5 { margin-bottom: 1.25rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+
+/* Text sizes */
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.text-3xl { font-size: 1.875rem; }
+.text-lg { font-size: 1.125rem; }
+.text-sm { font-size: 0.875rem; }
+
+/* Font weight */
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+
+/* Flex & Grid */
+.flex { display: flex; }
+.flex-1 { flex: 1; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.overflow-auto { overflow: auto; }
+.grid { display: grid; }
+.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.gap-4 { gap: 1rem; }
+.space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+
+/* Rounded */
+.rounded { border-radius: 0.25rem; }
+
+/* Shadow */
+.shadow { box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+
+/* Cursor */
+.cursor-pointer { cursor: pointer; }
+
+/* Margin top auto */
+.mt-auto { margin-top: auto; }
+
+/* Margin top */
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-6 { margin-top: 1.5rem; }
+
+/* Text color hover */
+.hover\:text-gray-200:hover { color: #e5e7eb; }
+
+/* Background color hover */
+.hover\:bg-gray-200:hover { background-color: #e5e7eb; }
+
+.hover\:bg-blue-500:hover { background-color: #2563eb; }
+
+.text-left { text-align: left; }
+
+/* عرض‌ها */
+.w-64 { width: 12rem; } /* 64 * 0.25rem = 16rem */
+.w-25 { width: 25%; }
+.w-50 { width: 50%; }
+.w-75 { width: 75%; }
+.w-full { width: 100%; }
+
+/* ارتفاع‌ها */
+.h-screen { height: 100vh; }
+.h-full { height: 100%; }
+
+/* flex-1 */
+.flex-1 { flex: 1; }
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Ensure the main layout doesn't have extra spacing */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}

@@ -52,6 +52,15 @@ The backend server will run on http://localhost:4000
 ```bash
   npm run dev
 ```
+---
+
+## 🖼️ Demo Screenshot
+
+<img width="1366" height="597" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/30dd6997-2458-4873-a124-af3ded584f62" />
+<img width="1366" height="597" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/744cdf78-cc5b-4ae8-9a0b-b088942b63cb" />
+<img width="1366" height="592" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/73555e1a-869e-4b81-b4e9-7d552091ae2d" />
+
+---
 
 ## The backend server will run on http://localhost:4000
 
